@@ -15,7 +15,7 @@ Odin is a mock web-based service designed to provide a fun and engaging user exp
 + script.js: Contains the JavaScript for form validation and interactive behaviors.
 + images/: Contains images used in the project, including background images and logos.
 
-##Installation
+## Installation
 + To set up and run this project locally, follow these steps:
   Clone the repository:
   git clone https://github.com/your-username/odin-sign-up-form.git
@@ -49,9 +49,9 @@ The CSS file styles the sign-up form, ensuring a visually appealing and user-fri
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-##Acknowledgements
+## Acknowledgements
 + Background image by Halie West on Unsplash
 + Inspiration from various online sign-up forms
