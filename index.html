@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="column bg-column">
+            <div class="logo-text">
+                <img src="images/odin-lined.png">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="column content-column">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>You <i>know</i> you want to.</p>
+
+            <form action="">
+                <h3>Let's do this!</h3>
+                <div class="grid-container">
+                    <div class="grid-items">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="first-name" id="firstName" placeholder="Thor" name="firstName" required>
+                    </div>
+                    <div class="grid-items">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="last-name" id="lastName" placeholder="Odinson" name="lastName" required>
+                    </div>
+                    <div class="grid-items">
+                        <label for="email">Email</label>
+                        <input type="email" class="email" id="email" placeholder="odinsonthor@example.com" name="email">
+                    </div>
+                    <div class="grid-items">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" minlength="10" maxlength="10" class="phone-number" id="phoneNumber" placeholder="73095 95037" name="phoneNumber">
+                    </div>
+                    <div class="grid-items">
+                        <label for="password">Password</label>
+                        <input type="password" class="password" id="password" name="password">
+                    </div>
+                    <div class="grid-items">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="confirm-password" id="confirmPassword">
+                    </div>
+                </div>
+                <button type="button">Create Account</button>
+                <div class="log-in">
+                    Already have an account? 
+                    <span id="logIn"><a href="#">Log in</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>

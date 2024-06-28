@@ -1,0 +1,120 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: norse-bold;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.bg-column{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
+}
+.logo-text{
+    height: 20vh;
+    background: rgba(0,0,0,0.5);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo-text img{
+    height: 100px;
+    margin-right: 5px;
+}
+
+.logo-text h1{
+    font-size: 70px;
+}
+
+.content-column{
+    padding-left: 30px;
+    padding-right: 80px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.content-column p{
+    margin-bottom: 30px;
+}
+
+form{
+    margin-top: 40px;
+    width: 100%;
+}
+
+form h3{
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 250px;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #596D48;
+}
+
+form label{
+    font-size: 16px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template: 70px 70px 70px / 300px 300px;
+}
+
+.grid-items{
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus{
+    border: 1px solid #E5E7EB;
+}
+
+button{
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #596D48;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.log-in, #logIn a{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logIn a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
