@@ -18,7 +18,7 @@ Odin is a mock web-based service designed to provide a fun and engaging user exp
 ## Installation
 + To set up and run this project locally, follow these steps:
   Clone the repository:
-  git clone https://github.com/your-username/odin-sign-up-form.git
+  git clone https://github.com/mindblogger786/signup-form.git
 + Navigate to the project directory:
   cd odin-sign-up-form
 + Open index.html in your preferred web browser to view the sign-up form.
